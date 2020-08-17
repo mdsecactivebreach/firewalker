@@ -1,6 +1,6 @@
 # FireWalker Instructions
 
-This repo contains a simple library which can be used to add FireWalker hook bypass capabilities to existing code; the FireWalker concept is described on the MDSec blog at <URL>.
+This repo contains a simple library which can be used to add FireWalker hook bypass capabilities to existing code; the FireWalker concept is described on the MDSec blog at https://www.mdsec.co.uk/2020/08/firewalker-a-new-approach-to-generically-bypass-user-space-edr-hooking/.
 
 To use the library just `#include` the FireWalker.h source file within existing C++ code and wrap API calls which may be hooked with `FIREWALK`, e.g.:
 
